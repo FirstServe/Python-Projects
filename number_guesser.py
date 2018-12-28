@@ -6,7 +6,7 @@ def generate_number():
     return
 
 def guess_number():
-		return
+	return
 
 def check_input():
   	return
