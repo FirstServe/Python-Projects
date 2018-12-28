@@ -9,4 +9,4 @@ def guess_number():
 	return
 
 def check_input():
-  	return
+	return
