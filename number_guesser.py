@@ -7,7 +7,7 @@ def generate_number():
     return
 
 def guess_number():
-    ''''''
+    '''Allows the user to guess the generated number.'''
     return
 
 def check_input():
