@@ -1,3 +1,5 @@
+import math, random
+
 def generate_number():
   return
 
