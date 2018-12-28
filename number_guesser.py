@@ -1,10 +1,10 @@
 import math, random
 
 def generate_number():
-  return
+ 	return
 
 def guess_number():
-  return
+ 	return
 
 def check_input():
-  return
+ 	return
