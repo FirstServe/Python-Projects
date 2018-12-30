@@ -1,4 +1,4 @@
-import math, random
+import math, random, turtle
 
 def generate_word():
     '''Generates a random word.'''
@@ -12,3 +12,13 @@ def number_letters():
     word = generate_word()
     numChar = len(word)
     return numChar
+
+def play_hangman():
+    '''Plays a game of hangman with the user.'''
+    word = generate_word()
+    numChar = number_letters()
+    print("_" * numChar)
+    wordGuess = input("What is your letter guess? (Please input a lowercase letter)"
+    if wordGuess in word:
+        print("You guessed a letter.")
+        
